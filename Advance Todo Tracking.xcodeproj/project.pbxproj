@@ -6,17 +6,48 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4E7FA03A3062B552008A9287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7FA0373062B552008A9287 /* Assets.xcassets */; };
+		4E7FA03B3062B552008A9287 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0383062B552008A9287 /* ContentView.swift */; };
+		4E7FA03C3062B552008A9287 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0393062B552008A9287 /* MyApp.swift */; };
+		4E7FA0403062B71B008A9287 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA03F3062B71B008A9287 /* FinanceView.swift */; };
+		4E7FA0423062B71D008A9287 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0413062B71D008A9287 /* AnalyticsView.swift */; };
+		4E7FA0443062B71E008A9287 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0433062B71E008A9287 /* SettingsView.swift */; };
+		4E7FA04A3062BA06008A9287 /* FinanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA0493062BA06008A9287 /* FinanceStore.swift */; };
+		4E7FA04C3062BA0C008A9287 /* DebtTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA04B3062BA0C008A9287 /* DebtTrackerView.swift */; };
+		4E7FA04E3062BA11008A9287 /* IncomeTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA04D3062BA11008A9287 /* IncomeTrackerView.swift */; };
+		4E7FA07430643D75008A9287 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07330643D75008A9287 /* Theme.swift */; };
+		4E7FA07630643D7D008A9287 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07530643D7D008A9287 /* CardStyle.swift */; };
+		4E7FA07830643D7F008A9287 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07730643D7F008A9287 /* PrimaryButtonStyle.swift */; };
+		4E7FA07A30643D81008A9287 /* IconTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07930643D81008A9287 /* IconTile.swift */; };
+		4E7FA07E30643D88008A9287 /* StatTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07D30643D88008A9287 /* StatTileView.swift */; };
+		4E7FA08030643D8B008A9287 /* RowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FA07F30643D8B008A9287 /* RowCard.swift */; };
+		4EC1D693306AC38A0091FA73 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1D692306AC38A0091FA73 /* SplashView.swift */; };
+		4EC1D695306AC38B0091FA73 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1D694306AC38B0091FA73 /* RootView.swift */; };
+		4EC1D697306AC46D0091FA73 /* CurrencyOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1D696306AC46D0091FA73 /* CurrencyOption.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Advance Todo Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advance Todo Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7FA0373062B552008A9287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7FA0383062B552008A9287 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E7FA0393062B552008A9287 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		4E7FA03F3062B71B008A9287 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		4E7FA0413062B71D008A9287 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		4E7FA0433062B71E008A9287 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4E7FA0493062BA06008A9287 /* FinanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStore.swift; sourceTree = "<group>"; };
+		4E7FA04B3062BA0C008A9287 /* DebtTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackerView.swift; sourceTree = "<group>"; };
+		4E7FA04D3062BA11008A9287 /* IncomeTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTrackerView.swift; sourceTree = "<group>"; };
+		4E7FA07330643D75008A9287 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4E7FA07530643D7D008A9287 /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
+		4E7FA07730643D7F008A9287 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		4E7FA07930643D81008A9287 /* IconTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTile.swift; sourceTree = "<group>"; };
+		4E7FA07D30643D88008A9287 /* StatTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTileView.swift; sourceTree = "<group>"; };
+		4E7FA07F30643D8B008A9287 /* RowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCard.swift; sourceTree = "<group>"; };
+		4EC1D692306AC38A0091FA73 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4EC1D694306AC38B0091FA73 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4EC1D696306AC46D0091FA73 /* CurrencyOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* Advance Todo Tracking */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Advance Todo Tracking";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		000000000000000130000000 /* Frameworks */ = {
@@ -30,8 +61,10 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000010 /* Advance Todo Tracking */,
 				000000000000000000000020 /* Products */,
+				4E7FA04F30643436008A9287 /* App */,
+				4E7FA05030643439008A9287 /* Resources */,
+				4E7FA0513064343B008A9287 /* Features */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +74,117 @@
 				000000000000000000000120 /* Advance Todo Tracking.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7FA04F30643436008A9287 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA0393062B552008A9287 /* MyApp.swift */,
+				4E7FA0383062B552008A9287 /* ContentView.swift */,
+				4E7FA07130643D6D008A9287 /* DesignSystem */,
+				4EC1D692306AC38A0091FA73 /* SplashView.swift */,
+				4EC1D694306AC38B0091FA73 /* RootView.swift */,
+				4EC1D696306AC46D0091FA73 /* CurrencyOption.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4E7FA05030643439008A9287 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA0373062B552008A9287 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E7FA0513064343B008A9287 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA05330643440008A9287 /* Finance */,
+				4E7FA05430643441008A9287 /* Analytics */,
+				4E7FA05530643441008A9287 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4E7FA05330643440008A9287 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA05830643444008A9287 /* Views */,
+				4E7FA05930643444008A9287 /* Models */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		4E7FA05430643441008A9287 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA05A30643445008A9287 /* Views */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		4E7FA05530643441008A9287 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA05B30643445008A9287 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4E7FA05830643444008A9287 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA03F3062B71B008A9287 /* FinanceView.swift */,
+				4E7FA04B3062BA0C008A9287 /* DebtTrackerView.swift */,
+				4E7FA04D3062BA11008A9287 /* IncomeTrackerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E7FA05930643444008A9287 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA0493062BA06008A9287 /* FinanceStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E7FA05A30643445008A9287 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA0413062B71D008A9287 /* AnalyticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E7FA05B30643445008A9287 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA0433062B71E008A9287 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E7FA07130643D6D008A9287 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA07230643D71008A9287 /* Components */,
+				4E7FA07330643D75008A9287 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4E7FA07230643D71008A9287 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FA07530643D7D008A9287 /* CardStyle.swift */,
+				4E7FA07730643D7F008A9287 /* PrimaryButtonStyle.swift */,
+				4E7FA07930643D81008A9287 /* IconTile.swift */,
+				4E7FA07D30643D88008A9287 /* StatTileView.swift */,
+				4E7FA07F30643D8B008A9287 /* RowCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +199,6 @@
 				000000000000000140000000 /* Resources */,
 			);
 			buildRules = (
-			);
-			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* Advance Todo Tracking */,
 			);
 			name = "Advance Todo Tracking";
 			productName = MyApp;
@@ -102,6 +243,7 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				4E7FA03A3062B552008A9287 /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -110,6 +252,23 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				4EC1D697306AC46D0091FA73 /* CurrencyOption.swift in Sources */,
+				4E7FA07830643D7F008A9287 /* PrimaryButtonStyle.swift in Sources */,
+				4E7FA04E3062BA11008A9287 /* IncomeTrackerView.swift in Sources */,
+				4EC1D693306AC38A0091FA73 /* SplashView.swift in Sources */,
+				4E7FA07A30643D81008A9287 /* IconTile.swift in Sources */,
+				4E7FA07E30643D88008A9287 /* StatTileView.swift in Sources */,
+				4E7FA03B3062B552008A9287 /* ContentView.swift in Sources */,
+				4E7FA03C3062B552008A9287 /* MyApp.swift in Sources */,
+				4E7FA0443062B71E008A9287 /* SettingsView.swift in Sources */,
+				4EC1D695306AC38B0091FA73 /* RootView.swift in Sources */,
+				4E7FA04C3062BA0C008A9287 /* DebtTrackerView.swift in Sources */,
+				4E7FA0423062B71D008A9287 /* AnalyticsView.swift in Sources */,
+				4E7FA08030643D8B008A9287 /* RowCard.swift in Sources */,
+				4E7FA04A3062BA06008A9287 /* FinanceStore.swift in Sources */,
+				4E7FA07430643D75008A9287 /* Theme.swift in Sources */,
+				4E7FA07630643D7D008A9287 /* CardStyle.swift in Sources */,
+				4E7FA0403062B71B008A9287 /* FinanceView.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -250,13 +409,15 @@
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "Advance Todo Tracking" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSF4PDL8N8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Advance Todo Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = LifeTrack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -268,10 +429,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyladev.lifetrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -289,13 +452,15 @@
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "Advance Todo Tracking" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSF4PDL8N8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Advance Todo Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = LifeTrack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -307,10 +472,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyladev.lifetrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
